@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import SignInForm from './_components/SignInForm.vue'
-import brandLogoEFAI from '@/assets/efai-logo.svg'
+// import brandLogoEFAI from '@/ssets/efai-logo.svg'
 </script>
 
 <template>
@@ -12,8 +12,8 @@ import brandLogoEFAI from '@/assets/efai-logo.svg'
     <NCard size="large" content-style="width: 360px;">
       <template #header>
         <NSpace vertical justify="center" align="center">
-          <NImage :src="brandLogoEFAI" preview-disabled />
-          <NH2> </NH2>
+          <!-- <NImage :src="brandLogoEFAI" preview-disabled /> -->
+          <NH2>test</NH2>
         </NSpace>
       </template>
 

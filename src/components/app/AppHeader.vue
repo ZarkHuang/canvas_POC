@@ -1,12 +1,13 @@
 <script setup lang="ts">
-import brandLogoEFAI from '@/assets/efai-logo.svg'
+// import brandLogoEFAI from '@/assets/efai-logo.svg'
 </script>
 
 <template>
   <div :class="$style.headerContainer">
     <NSpace align="center">
-      <NImage :src="brandLogoEFAI" preview-disabled height="28" />
+      <!-- <NImage :src="brandLogoEFAI" preview-disabled height="28" /> -->
       <!-- <div :class="$style.headerTitle">基因寶管理後台</div> -->
+      <NH2 style="padding-top:20px">test.</NH2>
     </NSpace>
 
     <NSpace>
